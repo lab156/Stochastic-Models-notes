@@ -1,0 +1,12 @@
+%THE BASIC LAYOUT OF THE LECTURES
+%NO FANCY STUFF HERE; MAIN OBJECTIVE IS TO DEBUG
+%THIS FILE IS USED BY THE MAKEFILE 
+\documentclass{article}
+
+\usepackage{general}
+
+
+\begin{document}
+\input{1/class}
+\input{2/class}
+\end{document}

@@ -1,0 +1,27 @@
+The sampling process or \textit{ananlog-to-digital conversion} for the signal $x(t)$ produces the digitalized signal $x_d(t)$ is:
+$$x_d(t) = R\left\lfloor \frac{x(t)}{R} \right\rfloor\quad t=T,2T,\ldots$$
+We call $R$ the resolution of the measurement and $T$ the period.
+
+\begin{ddef}[Stationary Conditions]
+The assumption that a signal's stochastic basin mechanism does not change over time. Usually as a result of measurments of indepent random variables.
+\end{ddef}
+
+\begin{ddef}[Time average of signals]
+For analog (time-continuous) signals:
+$$AV_x = \lim_{T\to \infty} \frac 1T \int_0^T x(t)\, dt$$
+and for digital (discrete) signals:
+$$AV_x =\frac 1N \sum_{n=0}^{N-1}  x(nT)$$ 
+\end{ddef}
+
+\begin{ddef}[Energy of a signal]
+The energy of a signal:
+$$EN_x = \int_0^\infty |x(t)|^2 dt, \quad \sum_{n=0}^\infty  |x(nT)|^2T$$
+\end{ddef}
+
+\begin{ddef}[Power of a signal]
+For analog (time-continuous) signals:
+$$AV_x = \lim_{T\to \infty} \frac 1T \int_0^T |x(t)|^2 dt$$
+and for digital (discrete) signals:
+$$AV_x =\lim_{N\to \infty}\frac 1N \sum_{n=0}^{N-1}  |x(nT)|^2$$ 
+\end{ddef}
+
